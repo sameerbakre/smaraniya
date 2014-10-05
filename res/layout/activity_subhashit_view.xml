@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.rss.subhashit.MainActivity$PlaceholderFragment" >
+
+        <Button
+            android:id="@+id/button_prev"
+            style="@style/buttonMenu"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/prev1"
+            android:text="@string/prev"
+            android:layout_marginLeft="5dp"/>
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scrollView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginBottom="15dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/text_mean_subhashit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="56dp"
+            		android:text="@string/hello_world"
+            		android:textColor="#3D0000"
+            		android:textSize="20sp"
+            		android:paddingLeft="10dp"
+            		android:paddingRight="10dp"
+            		android:lineSpacingExtra="5sp"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+        </ScrollView>
+		<ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home"
+            android:layout_centerHorizontal="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+		        <TextView
+		            android:id="@+id/text_subhashit"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="65dp"
+		            android:layout_marginRight="75dp"
+		            android:lineSpacingExtra="5sp"
+		            android:text="@string/hello_world"
+		            android:textAppearance="?android:attr/textAppearanceMedium"
+		            android:textColor="#000066"
+		            android:textSize="20sp" />
+            </LinearLayout>
+        </ScrollView>
+        <Button
+            android:id="@+id/button_next"
+            style="@style/buttonMenu"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/next1"
+            android:text="@string/next" />
+
+        <Button
+            android:id="@+id/anukramanika"
+            style="@style/buttonMenu"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/scrollView2"
+            android:text="@string/anukramanika"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:id="@+id/subhashit"
+            style="@style/buttonMenu"
+            android:layout_above="@+id/scrollView2"
+            android:layout_alignParentRight="true"
+            android:text="@string/subhshit" />
+
+        <Button
+            android:id="@+id/shlok"
+            style="@style/buttonMenu"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/scrollView2"
+            android:text="@string/shlok" />
+
+        <Button
+            android:id="@+id/dohe"
+            style="@style/buttonMenu"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/scrollView1"
+            android:text="@string/dohe" />
+
+        <Button
+            android:id="@+id/home"
+            style="@style/buttonMenu"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/home1"
+            android:text="@string/home"
+            android:layout_marginLeft="5dp" />
+
+</RelativeLayout>

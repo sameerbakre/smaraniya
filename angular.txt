@@ -1,0 +1,10 @@
+My Questions
+
+whats ng-app
+whats data-ng-app
+whats requirejs
+
+
+
+
+

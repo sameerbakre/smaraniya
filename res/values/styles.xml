@@ -1,0 +1,44 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+	<style name="title">
+	    <item name="android:textColor">#ffd700</item>
+	    <item name="android:textSize">36sp</item>
+	</style>
+	<style name="button">
+	    <item name="android:textColor">#FFE680</item>
+	    <item name="android:background">@drawable/button</item>
+	    <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">40dp</item>
+	</style>
+	
+	<style name="buttonMenu">
+	    <item name="android:textColor">#FFFFCC</item>
+	    <item name="android:background">@drawable/button</item>
+	    <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">55dp</item>
+        <item name="android:layout_height">20dp</item>
+	</style>
+	
+	<style name="buttonView">
+	    <item name="android:textColor">#b22222</item>
+	    <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">80dp</item>
+	</style>
+</resources>

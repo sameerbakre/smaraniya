@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.rss.subhashit.MainActivity$PlaceholderFragment" >
+    
+    <TextView
+        android:id="@+id/text_subhashit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#f00"
+        android:text="@string/hello_world"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="75dp" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+        <Button
+        android:id="@+id/home"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/home" />
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+
+        <Button
+            android:id="@+id/button_prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/prev" />
+
+    </RelativeLayout>
+</RelativeLayout>

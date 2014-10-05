@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:title="@string/home"
+        android:id="@+id/home"/>
+    
+    <item
+        android:title="@string/subhshit"
+        android:id="@+id/subhashit"/>
+    <item
+        android:title="@string/dohe"
+        android:id="@+id/dohe"/>
+    <item
+        android:title="@string/shlok"
+        android:id="@+id/shlok"/>
+</menu>

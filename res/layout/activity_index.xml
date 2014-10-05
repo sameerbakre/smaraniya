@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.rss.subhashit.IndexActivity" >
+
+
+        <Button
+            android:id="@+id/home"
+            style="@style/buttonMenu"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/home1"
+            android:text="@string/home" />
+
+        <Button
+            android:id="@+id/subhashit"
+            style="@style/buttonMenu"
+            android:layout_alignParentRight="true"
+            android:text="@string/subhshit" />
+
+        <Button
+            android:id="@+id/dohe"
+            style="@style/buttonMenu"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/dohe" />
+
+        <Button
+            android:id="@+id/shlok"
+            style="@style/buttonMenu"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/shlok" />
+
+        <ListView
+            android:id="@+id/indexView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/dohe"
+            android:layout_below="@+id/home"            
+            android:layout_marginLeft="25dp"
+            android:layout_toLeftOf="@+id/subhashit"
+            android:layout_toRightOf="@+id/home" >
+
+        </ListView>
+
+</RelativeLayout>
