@@ -5,8 +5,4 @@
         android:showAsAction="ifRoom"
         android:title="@string/share"
         android:actionProviderClass="android.widget.ShareActionProvider" />
-    
- 	<item
-        android:title="@string/anukramanika"
-        android:id="@+id/anukramanika"/>
 </menu>

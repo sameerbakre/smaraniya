@@ -8,33 +8,22 @@
     	android:layout_height="match_parent">
         
 
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
+    android:orientation="vertical"
     tools:context="com.maitrey.subhashit.MainActivity$PlaceholderFragment" >
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="23dp"
-        android:text="Application is best suited in Landscape mode"
-        android:textSize="15sp"
-        android:textColor="#000052" />
 
     <Button
         android:id="@+id/menuButton"
         style="@style/title"
         android:layout_width="175dp"
         android:layout_height="65dp"
-        android:layout_above="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="105dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="117dp"
         android:background="@drawable/logo"
         android:gravity="center"
         android:text="@string/title"
@@ -44,10 +33,9 @@
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="35dp"
-        android:layout_marginBottom="84dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="80dp"
+        android:layout_toLeftOf="@+id/menuButton"
         android:src="@drawable/ganpatibappa" />
 
 </RelativeLayout>
@@ -60,6 +48,8 @@
     	android:layout_gravity="start"
     	android:choiceMode="singleChoice"
         android:dividerHeight="1dp"       
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF">
+        
+    </ListView>
     
 </android.support.v4.widget.DrawerLayout>

@@ -1,10 +1,19 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/mainContent"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+    	
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
     android:orientation="vertical"
-    tools:context="com.rss.subhashit.MainActivity$PlaceholderFragment" >
+    tools:context="com.maitrey.subhashit.MainActivity$PlaceholderFragment" >
 
         <Button
             android:id="@+id/button_prev"
@@ -50,7 +59,7 @@
             android:id="@+id/scrollView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/home"
+            android:layout_below="@+id/favorite"
             android:layout_centerHorizontal="true">
 
             <LinearLayout
@@ -78,42 +87,35 @@
             android:background="@drawable/next1"
             android:text="@string/next" />
 
-        <Button
-            android:id="@+id/anukramanika"
-            style="@style/buttonMenu"
-            android:layout_alignParentLeft="true"
-            android:layout_alignTop="@+id/scrollView2"
-            android:text="@string/anukramanika"
-            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/indexNum"
+            style="@style/textVv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/button_prev"
+            android:layout_centerHorizontal="true"            
+            android:text="25" />
 
         <Button
-            android:id="@+id/subhashit"
-            style="@style/buttonMenu"
-            android:layout_above="@+id/scrollView2"
+            android:id="@+id/favorite"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
             android:layout_alignParentRight="true"
-            android:text="@string/subhshit" />
-
-        <Button
-            android:id="@+id/shlok"
-            style="@style/buttonMenu"
-            android:layout_alignParentRight="true"
-            android:layout_alignTop="@+id/scrollView2"
-            android:text="@string/shlok" />
-
-        <Button
-            android:id="@+id/dohe"
-            style="@style/buttonMenu"
-            android:layout_alignParentRight="true"
-            android:layout_alignTop="@+id/scrollView1"
-            android:text="@string/dohe" />
-
-        <Button
-            android:id="@+id/home"
-            style="@style/buttonMenu"
-            android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:background="@drawable/home1"
-            android:text="@string/home"
-            android:layout_marginLeft="5dp" />
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/star_silver"/>
 
 </RelativeLayout>
+
+ </FrameLayout>
+    <ListView android:id="@+id/listLayout"
+        android:background="#BB754719"
+        android:layout_width="200dp"
+    	android:layout_height="match_parent"
+    	android:layout_gravity="start"
+    	android:choiceMode="singleChoice"
+        android:dividerHeight="1dp"       
+        android:textColor="#FFFFFF"/>
+    
+</android.support.v4.widget.DrawerLayout>

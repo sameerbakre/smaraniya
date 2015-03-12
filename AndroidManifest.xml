@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.rss.subhashit"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="com.maitrey.subhashit"
+    android:versionCode="2"
+    android:versionName="2.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="14"
         android:targetSdkVersion="17" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
         <activity
-            android:name=".SubhashitActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="landscape" >
+            android:name="com.maitrey.subhashit.SubhashitActivity"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,13 +23,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".IndexActivity"
+            android:name="com.maitrey.subhashit.IndexActivity"
             android:label="@string/title_activity_index" >
         </activity>
         <activity
-            android:name=".SubhashitViewActivity"
+            android:name="com.maitrey.subhashit.SubhashitViewActivity"
             android:label="@string/title_activity_subhashit_view" >
         </activity>
+        <activity
+            android:name="com.maitrey.subhashit.ExpandableIndex"
+            android:label="@string/title_activity_expandable_index" >
+        </activity>
+        <service android:name="com.maitrey.subhashit.util.DataService"></service>
     </application>
 
 </manifest>

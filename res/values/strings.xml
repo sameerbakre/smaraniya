@@ -4,32 +4,23 @@
     <string name="app_name">स्मरणीयम्</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
-    <string-array name="subhashit">
-        <item>अतिपरीचयात् अवज्ञा, संतत गमना अनादरो भवती \n
-मलये भिल्ल पुरन्द्रे ,चंदनं तरु काष्ट मिंधन कुरुते ॥ $,$ अतिपरिचयसे अवमान होता है । तथा बारबार किसीके यंहा जाने से अनादर होता है । जैसे मलय पर्वत की भिल्ला स्त्री चन्दन पेड़ की लकड़ी का उपयोग इंधन के लिए करती है । </item>
-        <item>अपि स्वर्णमयी लंका  न मे लक्ष्मण! रोचते । \n
-जननी जन्मभूमिश्च स्वर्गादपि गरीयसी ॥  $,$ हे लक्ष्मण, यह स्वर्यमयी लंका मुझे अच्छी नही लगती है।  क्यों की जननी और जन्मभूमी स्वर्ग से भी श्रेष्ठ है। </item>
-        <item>अभिवादनशीलस्य नित्यं वृध्दोपसेविन: । \n
-चत्वारि तस्य वर्धन्ते आयुर्विद्यायशोबलम् | $,$ अभिवादन , सदाचार ,वृद्धोंकी सेवा नित्य करनेसे आयु, विद्या, यश, बल इन चारो गुणोंकी  वृद्धी होती है |</item>
-        <item>अयंनिज: परो वेति गणना लघुचेतसाम् \n  
-उदार चरितानांतु वसुधैव कुटुम्बकम् ॥ $,$ यह मेरा, यह पराया है ऐसा छोटे हृदय वाले ही सोचते है। उदार हृदयवालों के लिये समस्त विश्व परिवार के समान है। </item>
-        <item>येषां न विद्या न नपो न दानं 
-ज्ञानं न शीलं न गुणो न धर्म : । \n
-ते मर्त्यलोके भुवि भारभुता 
-मनुष्यरूपेण मृगाश्चरन्ति ॥ $,$ जिस मनुष्य के पास विद्या नही है, जिसने तप नही किया है, जो देना नही जानता, अविवेकी और असभ्य है, जिसमे कोई गुण नही और जो अपने धर्म का चालन नही करता, वही पृथ्वी रूपी मां पर भार ही है और एक प्रकार से मनुष्य के रूप मे पशु जैसा विचरण करता है। </item>
-    </string-array>
-
+    
     <string name="prev">Prev</string>
     <string name="next">Next</string>
     <string name="share">Share</string>
     <string name="home">Home</string>
+    
     <string name="title">स्मरणीयम्</string>
     <string name="subhshit">सुभाषित</string>
     <string name="dohe">दोहे</string>
     <string name="shlok">श्लोक</string>
+    <string name="favourite">Favourites</string>
     <string name="anukramanika">अनुक्रम</string>
     <string name="title_activity_index">अनुक्रमणिका</string>
+    
     <string name="title_activity_subhashit_view">स्मरणीयम्</string>
+    <string name="title_activity_expandable_index">ExpandableIndex</string>
 
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
 </resources>
